@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/Job renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#fff",
+      "borderWidth": 1,
+      "flex": 0.5,
+      "flexDirection": "row",
+      "marginBottom": 5,
+      "padding": 22.5,
+      "width": 600,
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      Object {
+        "height": 75,
+        "resizeMode": "contain",
+        "width": 75,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "marginLeft": 22.5,
+        "width": 360,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#569cee",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      developer
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Applied Blockchain
+    </Text>
+  </View>
+  <View
+    style={Object {}}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "textAlign": "right",
+        }
+      }
+    >
+      2017
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "textAlign": "right",
+        }
+      }
+    >
+      - 
+      2018
+    </Text>
+  </View>
+</View>
+`;

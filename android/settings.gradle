@@ -1,0 +1,30 @@
+rootProject.name = 'appii'
+include ':react-native-fs'
+project(':react-native-fs').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fs/android')
+include ':react-native-udp', ':RNAu10tix', ':libaunl-release'
+project(':react-native-udp').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-udp/android')
+include ':react-native-tcp'
+project(':react-native-tcp').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-tcp/android')
+include ':react-native-device-info'
+project(':react-native-device-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')
+include ':react-native-actionsheet-native'
+project(':react-native-actionsheet-native').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-actionsheet-native/android')
+include ':react-native-onesignal'
+project(':react-native-onesignal').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-onesignal/android')
+include ':react-native-push-notification'
+project(':react-native-push-notification').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-push-notification/android')
+include ':react-native-os'
+project(':react-native-os').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-os/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':react-native-randombytes'
+project(':react-native-randombytes').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-randombytes/android')
+include ':react-native-keychain'
+project(':react-native-keychain').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-keychain/android')
+include ':RNAu10tix'
+include ':react-native-fabric'
+project(':react-native-fabric').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fabric/android')
+
+include ':app'

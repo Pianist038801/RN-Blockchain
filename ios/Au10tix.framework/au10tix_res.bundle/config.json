@@ -1,0 +1,22 @@
+{
+    "steps_count": 2,
+    "steps": [
+        {
+            "step": 1,
+            "desc_key":  "step_1_desc",
+            "img_key":  "step_1_img"
+        },
+
+        {
+            "step": 2,
+            "desc_key": "step_2_desc",
+            "img_key":  "step_2_img"
+        },
+
+        {
+            "step": 3,
+            "desc_key": "step_3_desc",
+            "img_key":  "step_3_img"
+        }
+    ]
+}

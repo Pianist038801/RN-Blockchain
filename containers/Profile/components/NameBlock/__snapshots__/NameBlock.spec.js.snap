@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/NameBlock when props are good renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "marginLeft": 22.5,
+      "width": 360,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#569cee",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    hello
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    lorem ipsum
+  </Text>
+</View>
+`;
+
+exports[`containers/Profile/components/NameBlock when props.line2 contains "null" renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "marginLeft": 22.5,
+      "width": 360,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#569cee",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    hello
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    Applied Blockchain
+  </Text>
+</View>
+`;
+
+exports[`containers/Profile/components/NameBlock when props.line2 is "null" renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "marginLeft": 22.5,
+      "width": 360,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#569cee",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    hello
+  </Text>
+</View>
+`;
+
+exports[`containers/Profile/components/NameBlock when props.line2 is null renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "marginLeft": 22.5,
+      "width": 360,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#569cee",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    hello
+  </Text>
+</View>
+`;

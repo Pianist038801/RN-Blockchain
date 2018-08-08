@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/AwardProficiency when props.range = 11 renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#fff",
+      "borderWidth": 1,
+      "flex": 0.5,
+      "flexDirection": "row",
+      "marginBottom": 5,
+      "padding": 22.5,
+      "width": 600,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginLeft": 22.5,
+        "width": 360,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#569cee",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      English
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#000",
+          "marginBottom": 5,
+          "marginTop": 5,
+          "width": 750,
+        }
+      }
+    >
+      Intermediate - High (B1)
+    </Text>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#bdc1cc",
+          "borderRadius": 3,
+          "height": 6,
+          "overflow": "hidden",
+          "width": 487.5,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#2f8cff",
+            "borderRadius": 3,
+            "height": 6,
+            "width": 265.9090909090909,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`containers/Profile/components/AwardProficiency when range use defaultProps value renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#fff",
+      "borderWidth": 1,
+      "flex": 0.5,
+      "flexDirection": "row",
+      "marginBottom": 5,
+      "padding": 22.5,
+      "width": 600,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginLeft": 22.5,
+        "width": 360,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#569cee",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Skill1
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#000",
+          "marginBottom": 5,
+          "marginTop": 5,
+          "width": 750,
+        }
+      }
+    >
+      3
+    </Text>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#bdc1cc",
+          "borderRadius": 3,
+          "height": 6,
+          "overflow": "hidden",
+          "width": 487.5,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#2f8cff",
+            "borderRadius": 3,
+            "height": 6,
+            "width": 292.50000000000006,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

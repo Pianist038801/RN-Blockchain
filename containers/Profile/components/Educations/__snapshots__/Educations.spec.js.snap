@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/Educations when prop.educations is empty renders correctly 1`] = `
+<View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#7e7e7e",
+        "fontSize": 10,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`containers/Profile/components/Educations when prop.educations is not empty renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderColor": "#fff",
+        "borderWidth": 1,
+        "flex": 0.5,
+        "flexDirection": "row",
+        "marginBottom": 5,
+        "padding": 22.5,
+        "width": 600,
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        Object {
+          "height": 75,
+          "resizeMode": "contain",
+          "width": 75,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "marginLeft": 22.5,
+          "width": 360,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#569cee",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        BSc in something
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        Awesome Uni
+      </Text>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "textAlign": "right",
+          }
+        }
+      >
+        2016
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "textAlign": "right",
+          }
+        }
+      >
+        - 
+        2017
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderColor": "#fff",
+        "borderWidth": 1,
+        "flex": 0.5,
+        "flexDirection": "row",
+        "marginBottom": 5,
+        "padding": 22.5,
+        "width": 600,
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        Object {
+          "height": 75,
+          "resizeMode": "contain",
+          "width": 75,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "marginLeft": 22.5,
+          "width": 360,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#569cee",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        MSc in something
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        Westminster Uni
+      </Text>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "textAlign": "right",
+          }
+        }
+      >
+        2017
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "textAlign": "right",
+          }
+        }
+      >
+        - 
+        2018
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`containers/Profile/components/Educations when prop.educations is null renders correctly 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+>
+  Loading...
+</Text>
+`;

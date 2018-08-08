@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/NameDateBlock renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "marginLeft": 22.5,
+      "width": 360,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#569cee",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    hello
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    Lorem ipsum
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    2017-11-04
+     - 
+    2018-01-24
+  </Text>
+</View>
+`;

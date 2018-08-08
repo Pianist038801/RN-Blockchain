@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/SettingsIcon when state is loading renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "height": 54,
+      "marginLeft": -15,
+      "marginTop": -20,
+      "opacity": 1,
+      "paddingLeft": 20,
+      "paddingTop": 12,
+      "width": 54,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <Image
+    source={1}
+    style={
+      Object {
+        "height": 35,
+        "resizeMode": "contain",
+        "width": 35,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`containers/Profile/components/SettingsIcon when user is in review renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "height": 54,
+      "marginLeft": -15,
+      "marginTop": -20,
+      "opacity": 1,
+      "paddingLeft": 20,
+      "paddingTop": 12,
+      "width": 54,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <Image
+    source={1}
+    style={
+      Object {
+        "height": 35,
+        "resizeMode": "contain",
+        "width": 35,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`containers/Profile/components/SettingsIcon when user is not verified renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "height": 54,
+      "marginLeft": -15,
+      "marginTop": -20,
+      "opacity": 1,
+      "paddingLeft": 20,
+      "paddingTop": 12,
+      "width": 54,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <Image
+    source={1}
+    style={
+      Object {
+        "height": 35,
+        "resizeMode": "contain",
+        "width": 35,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "red",
+        "borderRadius": 22.678,
+        "height": 45.356,
+        "justifyContent": "center",
+        "left": 15,
+        "position": "absolute",
+        "right": -10,
+        "top": 7,
+        "width": 45.356,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#fff",
+          "fontFamily": "Ubuntu",
+          "fontSize": 26.68,
+        }
+      }
+    >
+      !
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`containers/Profile/components/SettingsIcon when user is verified renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "height": 54,
+      "marginLeft": -15,
+      "marginTop": -20,
+      "opacity": 1,
+      "paddingLeft": 20,
+      "paddingTop": 12,
+      "width": 54,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <Image
+    source={1}
+    style={
+      Object {
+        "height": 35,
+        "resizeMode": "contain",
+        "width": 35,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`containers/Profile/components/SettingsIcon when verification has failed renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "height": 54,
+      "marginLeft": -15,
+      "marginTop": -20,
+      "opacity": 1,
+      "paddingLeft": 20,
+      "paddingTop": 12,
+      "width": 54,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <Image
+    source={1}
+    style={
+      Object {
+        "height": 35,
+        "resizeMode": "contain",
+        "width": 35,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "red",
+        "borderRadius": 22.678,
+        "height": 45.356,
+        "justifyContent": "center",
+        "left": 15,
+        "position": "absolute",
+        "right": -10,
+        "top": 7,
+        "width": 45.356,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#fff",
+          "fontFamily": "Ubuntu",
+          "fontSize": 26.68,
+        }
+      }
+    >
+      !
+    </Text>
+  </View>
+</View>
+`;

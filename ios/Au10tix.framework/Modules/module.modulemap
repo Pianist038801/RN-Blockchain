@@ -1,0 +1,6 @@
+framework module Au10tix {
+  umbrella header "Au10tix.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/VerifiedIcon when pending_verification and verified are false renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <Image
+    source={1}
+    style={
+      Object {
+        "height": 75,
+        "resizeMode": "contain",
+        "width": 75,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`containers/Profile/components/VerifiedIcon when pending_verification is true and verified is false renders correctly 1`] = `
+<Image
+  source={1}
+  style={
+    Object {
+      "height": 75,
+      "resizeMode": "contain",
+      "width": 75,
+    }
+  }
+/>
+`;
+
+exports[`containers/Profile/components/VerifiedIcon when verified is true renders correctly 1`] = `
+<Image
+  source={1}
+  style={
+    Object {
+      "height": 75,
+      "resizeMode": "contain",
+      "width": 75,
+    }
+  }
+/>
+`;

@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile/components/AwardCpd renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#fff",
+      "borderWidth": 1,
+      "flex": 0.5,
+      "flexDirection": "row",
+      "marginBottom": 5,
+      "padding": 22.5,
+      "width": 600,
+    }
+  }
+>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID={undefined}
+    tvParallaxProperties={undefined}
+  >
+    <Image
+      source={1}
+      style={
+        Object {
+          "height": 75,
+          "resizeMode": "contain",
+          "width": 75,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "marginLeft": 22.5,
+        "width": 360,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#569cee",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      hello
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Lorem ipsum
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      11/4/2017
+       - 
+      1/24/2018
+    </Text>
+  </View>
+</View>
+`;
